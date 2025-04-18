@@ -1,0 +1,41 @@
+
+body {
+  background-image: url('wave.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 8px;
+}
+.section-white {
+  background: white;
+  color: black;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+h1, h2, h3 {
+  color: #ffc107;
+}
+.navbar-brand, .nav-link {
+  color: #17d4fc !important;
+}
+footer {
+  background: #f8f9fa;
+  color: #000;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
